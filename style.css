@@ -1,0 +1,185 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.circleshape {
+  width: 50px;
+  height: 50px;
+  border: 2px solid red;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  margin-left: 310px;
+  margin-top: -30px;
+  z-index: 5;
+  transform-origin: 50% 125px;
+}
+.circle {
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+}
+.twelve {
+  padding-top: 10px;
+  padding-left: 302px;
+  z-index: 6;
+}
+.three {
+  padding-top: 215px;
+  padding-left: 600px;
+  z-index: 6;
+}
+.six {
+  padding-top: 250px;
+  padding-left: 49%;
+  z-index: 6;
+}
+.nine {
+  display: block;
+  margin-top: -345px;
+  margin-left: 18px;
+  z-index: 6;
+}
+.hours {
+  width: 7px;
+  height: 180px;
+  background: black;
+  position: absolute;
+  margin-left: 327px;
+  margin-top: -30px;
+  border-radius: 45px;
+  border: 2px solid rgb(1, 40, 124);
+  transform: rotate(180deg);
+  z-index: 3;
+}
+.minutes {
+  width: 13px;
+  height: 220px;
+  background: black;
+  top: 215px;
+  border-radius: 45px;
+  border: 3px solid rgb(255, 0, 191);
+  position: absolute;
+  margin-left: 330px;
+  margin-top: 140px;
+  transform: rotate(180deg);
+  z-index: 2;
+}
+.seconds {
+  width: 18px;
+  height: 270px;
+  background: lightsalmon;
+  border-radius: 45px;
+  border: 4px solid lime;
+  position: absolute;
+  margin-left: 332px;
+  margin-top: -27px;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+.one {
+  width: 11px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  border-radius: 45px;
+  margin-top: -315px;
+  margin-left: 470px;
+  transform: rotate(30deg);
+}
+.two {
+  width: 11px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  border-radius: 45px;
+  margin-top: -200px;
+  margin-left: 570px;
+  transform: rotate(60deg);
+}
+.four {
+  width: 11px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  border-radius: 45px;
+  margin-top: 80px;
+  margin-left: 570px;
+  transform: rotate(120deg);
+}
+.five {
+  width: 11px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  border-radius: 45px;
+  margin-top: 190px;
+  margin-left: 460px;
+  transform: rotate(150deg);
+}
+.seven {
+  width: 11px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  border-radius: 45px;
+  margin-top: 190px;
+  margin-left: 180px;
+  transform: rotate(210deg);
+}
+.eight {
+  width: 11px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  border-radius: 45px;
+  margin-top: 80px;
+  margin-left: 80px;
+  transform: rotate(240deg);
+}
+.ten {
+  width: 11px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  border-radius: 45px;
+  margin-top: -190px;
+  margin-left: 60px;
+  transform: rotate(300deg);
+}
+.eleven {
+  width: 11px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  border-radius: 45px;
+  margin-top: -300px;
+  margin-left: 150px;
+  transform: rotate(330deg);
+}
+#hour,
+#minute,
+#second {
+  transform-origin: 0px 0px;
+  transition: transform 0.5s ease-in-out;
+}
+.pic {
+  position: absolute;
+  left: 630px;
+  top: 120px;
+  font-family: Brush Script MT;
+  font-weight: bold;
+  font-size: 90px;
+  text-shadow: 0 0 3px #cc37c5, 0 0 5px #d36318;
+  text-shadow: 4px 2px 8px #ff0000;
+}
